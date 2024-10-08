@@ -1,0 +1,68 @@
+---
+title: "Задание 2"
+author: "Карымов Матвей"
+date: '`r Sys.Date()`'
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    latex_engine: xelatex
+keep_markdown: true
+keep_tex: true
+header-includes:
+- \XeTeXdefaultencoding utf8
+- \usepackage{xltxtra}
+- \usepackage{fontspec}
+- \setmainfont{Times New Roman}
+- \setsansfont{Arial}
+- \setmonofont{Courier New}
+- \newfontfamily{\cyrillicfont}{Times New Roman}
+- \newfontfamily{\cyrillicfonttt}{Courier New}
+- \newfontfamily{\cyrillicfontsf}{Arial}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Виды анализа
+
+## Дедуктивный(логический) анализ
+
+https://cyberleninka.ru/article/n/prognozirovanie-ottoka-klientov-telekommunikatsionnoy-kompanii
+
+В данной статье прогнозируется отток клиентов в компании с использованием относительно небольшой выборки.
+
+## Прогностический анализ
+
+https://arxiv.org/pdf/1812.11028
+
+В данной статье оценивают риски повторной госпитализации больных на основе историй болезний и повторных случаев госпитализации.
+
+# Заголовок
+
+## Подзаголовок
+
+### Подподзаголовок
+
+* Элемент списка 1
+* Элемент списка 2
+* Элемент списка 3
+
+1. Элемент списка 1
+2. Элемент списка 2
+3. Элемент списка 3
+
+[Мой gitHub](https://github.com/smal1ik/RStudio_test)
+
+$\frac{n!}{k!(n-k)!} = \binom{n}{k}$
+
+![image](C:/Users/MATVEI/Documents/RStudio_test/cats.jpg)
+
+>Альберт Энштейн
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1    | Cell 2   | Cell 3   |
+| Row 2    | Cell 5   | Cell 6   |
+| Row 3    | Cell 8   | Cell 9   |
